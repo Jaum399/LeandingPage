@@ -1,0 +1,170 @@
+* {
+
+
+    margin: 0px;
+
+
+    font-family: "inter";
+}
+
+#logo {
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+}
+
+#menu-superior {
+    margin-left: 150px;
+    margin-top: 50px;
+
+
+}
+
+#menusuperiortexto {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+
+}
+
+#menusuperior {
+    color: #ffff;
+    width: auto;
+    background-image: url(imagens/fundo.svg);
+}
+
+#menuinformaçoes {
+
+    background: #EAECE5;
+
+
+
+
+
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+
+
+
+}
+
+.icon {
+    margin: 50px 0px 50px 50px;
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+#titlevideo {
+    color: #247ba0;
+    margin-top: 50px;
+}
+
+#video {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#play {
+    margin: 50px 25px 50px;
+}
+
+#carrossel {
+
+    background: #247BA0;
+
+  
+    padding:50px;
+
+
+
+
+}
+
+#titlecar {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cards {
+ margin-top: 40px;
+margin-left: 15px;
+
+
+
+
+
+
+    display: grid;
+    grid-auto-flow: column;
+
+}
+#setaesquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    margin-top: 35%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5ms;
+}
+#formulario{
+    text-align: center;
+    
+}
+#titleform{
+    margin: 25px;
+    font-size: 25px;
+    color: #383838;
+}
+input{
+    
+    margin-left: 35%;
+    display: grid;
+    grid-auto-flow: column;
+    width:300px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #eaece5;
+    padding-left: 10px;
+    margin-top: 25px;
+    
+}
+button{
+    margin-left: -100px;
+    justify-items: center;
+    width: 300px;
+    height: 38px;
+    margin-top: 40px;
+    margin-right: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background: #247BA0;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+
+    
+    
+}
+button:hover{
+ background-color: #2b97c5;
+ color:white;
+ transform: translateY(-7px);
+ box-shadow: 0px 15px 20px #1b6a8b;
+ 
+}
